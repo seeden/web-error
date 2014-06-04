@@ -21,8 +21,8 @@ describe('<Unit Test>', function() {
 
 			error.should.have.property('stack');
 
-			error.should.have.property('className');
-			error.className.should.equal('WebError');
+			error.should.have.property('name');
+			error.name.should.equal('WebError');
 
 			(error instanceof Error).should.equal(true);
 			(error instanceof WebError).should.equal(true);
@@ -42,12 +42,11 @@ describe('<Unit Test>', function() {
 
 			error.should.have.property('stack');
 
-			error.should.have.property('className');
-			error.className.should.equal('WebError');
+			error.should.have.property('name');
+			error.name.should.equal('WebError');
 
 			(error instanceof Error).should.equal(true);
 			(error instanceof WebError).should.equal(true);
-
 
 			done();
 		});

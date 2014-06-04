@@ -1,6 +1,6 @@
 {
 	"name": "web-error",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Base Error with code of http error",
 	"author": {
 		"name": "Zlatko Fedor",
@@ -12,7 +12,7 @@
 		"url": "git://github.com/seeden/web-error.git"
 	},
 	"keywords": [
-		"Error",
+		"error",
 		"extend"
 	],
 	"private": false,
@@ -30,7 +30,7 @@
 		"test": "node node_modules/grunt-cli/bin/grunt test"
 	},
 	"dependencies": {
-		"base-error": "~1.0.1"
+		"base-error": "~1.0.4"
 	},
 	"devDependencies": {
 		"grunt": "~0.4.2",
