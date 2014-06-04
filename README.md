@@ -7,7 +7,7 @@ You can use this library as AMD, CommonJS or root library in your [Webpack](http
 Works in the browser, in [NodeJS](http://nodejs.org/), [Bower](http://bower.io/) and with [Browserify](http://browserify.org/).
 
 # Example
-	var BaseError = require('web-error');
+	var WebError = require('web-error');
 
 	var error = new WebError(404);
 
