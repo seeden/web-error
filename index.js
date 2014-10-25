@@ -2,8 +2,9 @@
 	'use strict';
 
 	function defineWebError (BaseError) {
-		function WebError (status, message, constructorOpt) {
+		function WebError (status, message, errors, constructorOpt) {
 			this.status = status || 500;
+			this.errors = errors || [];
 			message = message || STATUS_CODES[this.status];
 
 			BaseError.call(this, message, constructorOpt || WebError);

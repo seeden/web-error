@@ -1,6 +1,6 @@
 {
 	"name": "web-error",
-	"version": "1.0.2",
+	"version": "2.0.0",
 	"description": "Base Error with code of http error",
 	"author": {
 		"name": "Zlatko Fedor",
