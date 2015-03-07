@@ -1,6 +1,6 @@
 {
 	"name": "web-error",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Base Error with code of http error",
 	"author": {
 		"name": "Zlatko Fedor",
@@ -27,17 +27,18 @@
 		"node": ">= 0.10.0"
 	},
 	"scripts": {
-		"test": "node node_modules/grunt-cli/bin/grunt test"
+		"test"  : "npm run build && node ./node_modules/gulp/bin/gulp.js test",
+		"build" : "node ./node_modules/gulp/bin/gulp.js build"
 	},
 	"dependencies": {
-		"base-error": "~1.0.4"
+		"base-error": "~2.0.1"
 	},
 	"devDependencies": {
-		"grunt": "~0.4.2",
-		"grunt-cli": "~0.1.11",
-		"grunt-env": "~0.4.1",
-		"grunt-mocha-test": "~0.8.1",
-		"should": "~2.1.1"
+		"gulp": "~3.8.11",
+		"gulp-mocha": "~2.0.0",
+		"gulp-babel": "~4.0.0",
+		"should": "~5.0.1",
+		"babel": "~4.7.1"
 	},
 	"bugs": {
 		"url": "https://github.com/seeden/web-error/issues"

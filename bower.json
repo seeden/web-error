@@ -1,19 +1,19 @@
 {
 	"name": "web-error",
 	"description": "Base Error with code of http error",
-	"version": "1.0.2",
+	"version": "3.0.0",
 	"keywords": [
 		"error",
 		"extend"
 	],
 	"homepage": "https://github.com/seeden/web-error",
 	"main": [
-		"index.js"
+		"dist/index.js"
 	],
 	"ignore": [
 		".*"
 	],
 	"dependencies": {
-		"base-error": "~1.0.4"
+		"base-error": "~2.0.1"
 	}
 }
