@@ -1,7 +1,7 @@
 {
 	"name": "web-error",
 	"description": "Base Error with code of http error",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"keywords": [
 		"error",
 		"extend"
@@ -14,6 +14,6 @@
 		".*"
 	],
 	"dependencies": {
-		"base-error": "~2.0.1"
+		"base-error": "~2.0.2"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"name": "web-error",
-	"version": "3.0.0",
-	"description": "Base Error with code of http error",
+	"version": "3.0.1",
+	"description": "Extended class of javascript Error with support for http status code",
 	"author": {
 		"name": "Zlatko Fedor",
 		"email": "zfedor@gmail.com",
@@ -31,7 +31,7 @@
 		"build" : "node ./node_modules/gulp/bin/gulp.js build"
 	},
 	"dependencies": {
-		"base-error": "~2.0.1"
+		"base-error": "~2.0.2"
 	},
 	"devDependencies": {
 		"gulp": "~3.8.11",
