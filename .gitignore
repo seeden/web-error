@@ -1,0 +1,11 @@
+.DS_Store
+.nodemonignore
+.sass-cache/
+.bower-*/
+.idea/
+node_modules/
+public/lib
+public/files
+public/api
+test/coverage/
+public/css/style.css

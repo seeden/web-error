@@ -1,9 +1,4 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
-exports['default'] = {
+export default {
   400: 'Bad Request',
   401: 'Unauthorized',
   402: 'Payment Required',
@@ -49,4 +44,3 @@ exports['default'] = {
   510: 'Not Extended',
   511: 'Network Authentication Required'
 };
-module.exports = exports['default'];
