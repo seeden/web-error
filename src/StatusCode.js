@@ -30,6 +30,7 @@ export default {
   444: 'No Response', // An nginx HTTP server extension. The server returns no information to the client and closes the connection (useful as a deterrent for malware).
   449: 'Retry With', // A Microsoft extension. The request should be retried after performing the appropriate action.
   450: 'Blocked By Windows Parental Controls',
+  451: 'Unavailable For Legal Reasons',
   499: 'Client Closed Request',
   500: 'Internal Server Error',
   501: 'Not Implemented',
@@ -42,5 +43,5 @@ export default {
   508: 'Loop Detected',
   509: 'Bandwidth Limit Exceeded',
   510: 'Not Extended',
-  511: 'Network Authentication Required'
+  511: 'Network Authentication Required',
 };

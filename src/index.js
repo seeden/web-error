@@ -1,15 +1,15 @@
-import BaseError from 'base-error';
-import StatusCode from './StatusCode';
+import WebError from './WebError';
 
-export default class WebError extends BaseError {
-  constructor(status = 500, message = StatusCode[status], errors = []) {
-    super(message);
+export StatusCode from './StatusCode';
 
-    this.status = status;
-    this.errors = errors;
-  }
-}
+export BadRequest from './BadRequest';
+export Unauthorized from './Unauthorized';
+export PaymentRequired from './PaymentRequired';
+export Forbidden from './Forbidden';
+export NotFound from './NotFound';
+export MethodNotAllowed from './MethodNotAllowed';
+export NotAcceptable from './NotAcceptable';
+export ProxyAuthenticationRequired from './ProxyAuthenticationRequired';
+export RequestTimeout from './RequestTimeout';
 
-WebError.prototype.name = 'WebError';
-
-export { StatusCode };
+export default WebError;
